@@ -3,6 +3,6 @@
 int main() {
    float a;
     scanf("%f",&a);
-    printf("a",%f);
+    printf("enter the number");
    return 0;
 }
