@@ -2,7 +2,7 @@
 int main() {
     float a,b,c;
     scanf("%f%f%f",&a,&b,&c);
-    if(c**2 == a**2 + b**2)
+    if(c*c == a*a + b*b)
     printf("Valid");
     else
     printf("Invalid");
