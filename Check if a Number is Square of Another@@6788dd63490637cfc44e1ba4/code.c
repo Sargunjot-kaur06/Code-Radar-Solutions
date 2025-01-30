@@ -2,7 +2,7 @@
 int main() {
     int a,b;
     scanf("%d",&a);
-    if(a == b**2)
+    if(a == b**b)
     printf("Yes");
     else
     printf("No");
