@@ -2,7 +2,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if(a > 0 && a % 1 == a)
+    if(a > 0 && 1 % a == 0)
     printf("Prime");
     else
     printf("Not Prime");
