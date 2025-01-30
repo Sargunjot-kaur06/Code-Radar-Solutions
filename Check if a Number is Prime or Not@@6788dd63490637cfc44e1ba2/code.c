@@ -4,8 +4,6 @@ int main() {
     scanf("%d",&a);
     if(a > 0 && a % 1 == 0)
     printf("Prime");
-    else if(a > 0 && a % a == 0)
-    printf("Prime");
     else
     printf("Not Prime");
     return 0;
