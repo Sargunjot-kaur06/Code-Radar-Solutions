@@ -17,9 +17,12 @@ int main() {
     {
         printf("%d", a * b);
     }
-    else if(s == '/')
-    {
-        printf("%d", a / b);
+    else if (s == '/') {
+        if (b != 0) {  
+            printf("%d", a / b);
+        } else {
+            printf("Error: Division by zero");
+        }
     }
     else
     {
