@@ -6,27 +6,27 @@ int main() {
     {
         printf("Monday");
     }
-    Else if(a == 2)
+    else if(a == 2)
     {
         printf("Tuesday");
     }
-    Else if(a == 3) 
+    else if(a == 3) 
     {
         printf("Wednesday");
     }
-    Else if(a == 4)
+    else if(a == 4)
     {
         printf("Thursday");
     }
-    Else if(a == 5)
+    else if(a == 5)
     {
         printf("Friday");
     }
-    Else if(a == 6)
+    else if(a == 6)
     {
         printf("Saturday");
     }
-    Else if(a == 7)
+    else if(a == 7)
     {
         printf("Sunday");
     }
