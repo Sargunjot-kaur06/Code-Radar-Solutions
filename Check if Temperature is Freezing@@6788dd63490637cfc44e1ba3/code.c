@@ -2,11 +2,11 @@
 int main(){
     float a;
     scanf("%f", &a);
-    if(a < 0)
+    if(a <= 0)
     {
         printf("Freezing");
     }
-    if else(a >= 0)
+    else
     {
         printf("Above Freezing");
     }
