@@ -18,9 +18,12 @@ int main() {
         printf("%f", a * b);
     }
     else if(s == '/')
-    {
-        printf("%f", a / b);
-    }
+    if (b != 0) {  
+            printf("%f", a / b);
+        } else {
+            printf("eeror");
+        }
+    } 
     else
     {
         printf("error");
