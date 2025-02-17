@@ -3,19 +3,21 @@ int main() {
     float a,b;
     scanf("%f", &a);
     scanf("%f", &b);
-    if(a, b, +)
+    char = s;
+    scanf("%c", &s);
+    if(s == +)
     {
         printf("%f", a + b);
     }
-    else if(a, b, -)
+    else if(s == -)
     {
         printf("%f", a - b);
     }
-    else if(a, b, *)
+    else if(s == *)
     {
         printf("%f", a * b);
     }
-    else if(a, b, /)
+    else if(s == /)
     {
         printf("%f", a / b);
     }
