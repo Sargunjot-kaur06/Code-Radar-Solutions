@@ -23,7 +23,6 @@ int main() {
         } else {
             printf("eeror");
         }
-    } 
     else
     {
         printf("error");
