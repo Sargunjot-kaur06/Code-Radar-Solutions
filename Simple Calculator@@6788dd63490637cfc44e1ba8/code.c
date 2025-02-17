@@ -2,9 +2,9 @@
 int main() {
     int a,b;
     char s;
-    scanf("\n%d", &a);
-    scanf("\n%d", &b);
-    scanf("\n%c", &s);
+    scanf("%d", &a);
+    scanf("%d", &b);
+    scanf("%c", &s);
     if(s == '+')
     {
         printf("%d", a + b);
