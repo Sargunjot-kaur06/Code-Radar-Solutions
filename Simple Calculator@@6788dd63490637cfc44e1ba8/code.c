@@ -2,9 +2,9 @@
 int main() {
     float a,b;
     char s;
-    scanf("%f", &a);
-    scanf("%f", &b);
-    scanf("%c", &s);
+    scanf("\n%f", &a);
+    scanf("\n%f", &b);
+    scanf("\n%c", &s);
     if(s == '+')
     {
         printf("%f", a + b);
@@ -18,11 +18,9 @@ int main() {
         printf("%f", a * b);
     }
     else if(s == '/')
-    if (b != 0) {  
-            printf("%f", a / b);
-        } else {
-            printf("eeror");
-        }
+    {
+        printf("%f", a / b);
+    }
     else
     {
         printf("error");
