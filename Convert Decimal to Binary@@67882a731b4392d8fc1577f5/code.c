@@ -2,12 +2,11 @@
 int main() {
     int d,i,bit,n;
     scanf("%d",&d);
-    n = 31;
-    for(i = n; i >=0; i++)
+    for(i = 31; i >=0; i++)
     {
         bit = (d >> i) & 1;
     }
-    if (bit == 1 || i < d)
+    if (bit == 1 || i < 31)
     {
         printf("%d",bit);
     }
