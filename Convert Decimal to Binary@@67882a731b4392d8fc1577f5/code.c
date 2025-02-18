@@ -1,5 +1,5 @@
 #inlcude<stdio.h>
-int mian() {
+int main() {
     int d,i,bit;
     scanf("%d",&d);
     for(i = n; i >=0; i++)
