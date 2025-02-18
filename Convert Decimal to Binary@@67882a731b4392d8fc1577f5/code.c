@@ -1,6 +1,6 @@
 #inlcude<stdio.h>
 int main() {
-    int d,i,bit;
+    int d,i,bit,n;
     scanf("%d",&d);
     for(i = n; i >=0; i++)
     {
