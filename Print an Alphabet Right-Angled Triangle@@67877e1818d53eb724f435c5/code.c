@@ -5,9 +5,9 @@ int main() {
 
     for(i = 1; i <= n; i++){
         for(j = 1; j <= i; j++){
-            printf("%c ",64+j);
+            printf("%c ",64+j-1);
         }
         printf("\n");
     }
     return 0;
-}
+}-1
