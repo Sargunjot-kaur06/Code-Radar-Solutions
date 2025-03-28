@@ -7,15 +7,19 @@ int main(){
     for(int i = 0; i < n; i++){
         scanf("%d",&a[i]);
     }
+    int even_count = 1;
     for(i = 0; i < n; i++){
         if(a[i] % 2 == 0){
-            printf("%d ",a[i]);
+            even_count++;
         }
+        printf("%d",even_count);
     }
+    int odd_count = 0;
     for(i = 0; i < n; i++){
         if(a[i] % 2 != 0){
-            printf("%d",a[i]);
+            odd_count++;
         }
+        printf("%d",odd_count);
     }
     return 0;
 }
