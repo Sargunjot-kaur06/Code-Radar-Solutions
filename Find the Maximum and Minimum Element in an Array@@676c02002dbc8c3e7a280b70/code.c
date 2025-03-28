@@ -18,4 +18,5 @@ int main() {
         min = a[i];
     }
     printf("%d",min);
+    return 0;
 }
