@@ -2,9 +2,9 @@
 int main() {
     int n;
     scanf("%d",&n);
-    int a[];
+    int a[n];
     for(int i = 0; i < n; i++) {
-        scanf("%d",a[n]);
+        scanf("%d",a[i]);
     }
     int max = a[0]; {
     if(a[i] > max)
