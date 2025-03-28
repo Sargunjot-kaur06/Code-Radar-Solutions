@@ -11,8 +11,8 @@ int main(){
             else{
                 printf("0 ");
             }
-            printf("\n");
         }
-        return 0;
+        printf("\n");
     }
+    return 0;
 }
