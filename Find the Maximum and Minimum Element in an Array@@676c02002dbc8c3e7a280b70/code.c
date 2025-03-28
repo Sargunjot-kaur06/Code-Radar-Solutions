@@ -1,4 +1,4 @@
-#include<sdtio.h>
+#include<stdio.h>
 int main() {
     int n;
     printf("enter the number of elements: ");
@@ -18,5 +18,5 @@ int main() {
         min = a[i];
     }
     printf("%d",min);
-    
+
 }
