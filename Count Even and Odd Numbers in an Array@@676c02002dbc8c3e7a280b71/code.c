@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n;
+    int n,i;
     scanf("%d",&n);
     
     int a[n];
@@ -15,7 +15,7 @@ int main(){
         if(a[i] % 2! == 0){
             printf("%d",a[i]);
         }
-        return 0;
     }
+    return 0;
     }
 }
