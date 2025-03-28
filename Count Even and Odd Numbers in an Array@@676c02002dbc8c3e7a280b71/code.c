@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n,i,f = 1;
+    int n,i;
     scanf("%d",&n);
     
     int a[n];
@@ -8,10 +8,8 @@ int main(){
         scanf("%d",&a[i]);
     }
     for(i = 0; i < n; i++){
-        if(a[i] % 2 == 0)
-        f++;
-        {
-        printf("%d ",f);    
+        if(a[i] % 2 == 0){
+            printf("%d ",a[i]);
         }
     }
     for(i = 0; i < n; i++){
