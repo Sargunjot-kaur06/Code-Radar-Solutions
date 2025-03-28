@@ -7,7 +7,7 @@ int main(){
     for(int i = 0; i < n; i++){
         scanf("%d",&arr[i]);
     }
-    bubblesort(arr, n);
-    printarray(arr, n);
+    int bubblesort(arr, n);
+    int printarray(arr, n);
     return 0;
 }
