@@ -12,7 +12,7 @@ int main(){
     int count = 0;
     for(i = 0; i < n; i++){
         if(a[i] == num)
-        count++
+        count++;
     }
     printf("%d",count);
     return 0;
