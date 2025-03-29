@@ -9,7 +9,7 @@ int main() {
     }
     for(i = 0; i < n; i++){
         if(n == arr[i]){
-            f = 1;
+            f = 2;
         }
     }
     if(f == 2){
