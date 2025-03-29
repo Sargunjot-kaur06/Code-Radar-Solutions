@@ -3,7 +3,7 @@ int main(){
     int n,i,num;
     scanf("%d",&n);
     
-    int a[n],freq[i];
+    int a[n],freq[n];
     for(int i = 0; i < n; i++){
         scanf("%d",&a[i]);
         freq[i]=-1;
@@ -17,7 +17,7 @@ int main(){
         freq[j] = 0;
     }
     }
-    if freq[i] != 0 {
+    if (freq[i] != 0) {
         freq[i] = count;
     }
     }
