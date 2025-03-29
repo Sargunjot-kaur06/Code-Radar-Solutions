@@ -12,7 +12,7 @@ int main() {
             f = 1;
         }
     }
-    if(f == 1){
+    if(f == 2){
         printf("%d",arr[i]);
     }
     else{
