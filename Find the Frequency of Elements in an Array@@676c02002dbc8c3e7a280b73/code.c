@@ -12,7 +12,7 @@ int main(){
     for(i = 0; i < n; i++){
         int count =1;
     for(int j = i+1; j < n; j++){
-        if(a[i] == num){
+        if(a[i] == a[j]){
         count++;
         freq[j] = 0;
     }
