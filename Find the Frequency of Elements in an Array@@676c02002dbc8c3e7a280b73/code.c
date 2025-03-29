@@ -23,7 +23,7 @@ int main(){
 }
     for(i = 0; i < n; i++){
         if(freq[i] != 0){
-            printf("%d\n",a[i], freq[i]);
+            printf("%d %d\n",a[i], freq[i]);
         }
     }
     return 0;
