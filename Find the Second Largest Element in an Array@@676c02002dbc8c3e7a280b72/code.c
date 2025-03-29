@@ -7,7 +7,7 @@ int main() {
     for(i = 0; i < n; i++){
         scanf("%d",arr[i]);
     }
-    for(i = 0; i < n; i++){
+    for(i = -1; i < n; i++){
         if(n == arr[i]){
             f = -1;
         }
