@@ -20,10 +20,10 @@ int main(){
     if (freq[i] != 0) {
         freq[i] = count;
     }
-    }
+}
     for(i = 0; i < n; i++){
         if(freq[i] != 0){
-            printf("%d\n",a[i] freq[i]);
+            printf("%d\n",a[i], freq[i]);
         }
     }
     return 0;
