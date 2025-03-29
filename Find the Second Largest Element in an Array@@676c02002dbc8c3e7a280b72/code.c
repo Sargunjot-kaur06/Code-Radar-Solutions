@@ -5,7 +5,7 @@ int main() {
 
     int arr[n];
     for(i = 0; i < n; i++){
-        scanf("%d",arr[i]);
+        scanf("%d",&arr[i]);
     }
     for(i = 0; i < n; i++){
         if(n == arr[i]){
