@@ -11,11 +11,16 @@ int main() {
     int i,t,index = 0;
     scanf("%d",&t);
 
-    if (arr[i] == index){
-        printf("%d",i);
+    int index = -1; // Initialize to -1 (not found)
+    
+    // Search through the array
+    for(int i = 0; i < n; i++) {
+        if(arr[i] == t) {
+            index = i;
+            break; // Exit loop once found
+        }
     }
-    else{
-        printf("-1");
-    }
+
+    printf("%d", index);
     return 0;
 }
