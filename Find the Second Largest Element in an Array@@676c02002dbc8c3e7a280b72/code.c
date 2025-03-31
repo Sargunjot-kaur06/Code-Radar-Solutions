@@ -7,6 +7,7 @@ int main() {
     for(int i = 0; i < n; i++){
         scanf("%d",&arr[i]);
     }
+    int s;
     int first,second = s;
     if(arr[0] > arr[1]){
         first = arr[0];
