@@ -25,9 +25,10 @@ int main() {
             second = arr[i];
         }
     }
-    printf("%d",second);
-    else{
-        printf("-1");
+    if (second == arr[1]) {
+        printf("-1\n"); // All elements are equal
+    } else {
+        printf("%d\n", second);
     }
     return 0;
 }
