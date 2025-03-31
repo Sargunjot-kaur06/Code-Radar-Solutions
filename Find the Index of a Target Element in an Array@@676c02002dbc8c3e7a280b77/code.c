@@ -8,7 +8,7 @@ int main() {
         scanf("%d",&arr[i]);
     }
 
-    int i,t,index = 0;
+    int t;
     scanf("%d",&t);
 
     int index = -1; // Initialize to -1 (not found)
