@@ -12,7 +12,7 @@ int main() {
     scanf("%d",&t);
 
     if (arr[i] == index){
-        printf("%d",t);
+        printf("%d",i);
     }
     else{
         printf("-1");
