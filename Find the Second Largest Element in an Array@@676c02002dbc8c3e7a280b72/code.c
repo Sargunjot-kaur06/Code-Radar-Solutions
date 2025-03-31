@@ -24,10 +24,11 @@ int main() {
         else if(arr[i] > second && arr[i]!=first){
             second = arr[i];
         }
-        else{
-            printf("-1");
-        }
     }
-    printf("%d\n",second);
+    if (second == arr[i]) {
+        printf("-1\n"); // All elements are equal
+    } else {
+        printf("%d\n", second);
+    }
     return 0;
 }
