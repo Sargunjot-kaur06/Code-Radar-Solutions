@@ -25,4 +25,6 @@ int main() {
             second = arr[i];
         }
     }
+    printf("%d\n",second);
+    return 0;
 }
