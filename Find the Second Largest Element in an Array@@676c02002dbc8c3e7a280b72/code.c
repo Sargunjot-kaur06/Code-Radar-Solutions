@@ -7,7 +7,7 @@ int main() {
     for(int i = 0; i < n; i++){
         scanf("%d",&arr[i]);
     }
-    int first,second;
+    int first,second = s;
     if(arr[0] > arr[1]){
         first = arr[0];
         second = arr[1];
@@ -25,7 +25,7 @@ int main() {
             second = arr[i];
         }
     }
-    if (second == arr[n]) {
+    if (second == s) {
         printf("-1\n"); // All elements are equal
     } else {
         printf("%d\n", second);
