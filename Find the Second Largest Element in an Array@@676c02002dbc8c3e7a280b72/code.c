@@ -2,6 +2,7 @@
 int main() {
     int n;
     int a[n];
+    int arr[n];
     scanf("%d",&n);
 
     int arr[n];
@@ -15,11 +16,11 @@ int main() {
     int min;
     int first = min, second = min;
     for(int i = 0; i < n; i++){
-        if (int arr[i] > first){
+        if (arr[i] > first){
             second = first;
             first = arr[i];
         }
-        else if(int arr[i] > second && a[i]! = first){
+        else if(arr[i] > second && a[i]! = first){
             second = arr[i];
         }
     }
