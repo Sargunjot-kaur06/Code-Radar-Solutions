@@ -8,7 +8,7 @@ int main() {
         scanf("%d",&arr[i]);
     }
 
-    int t,index = 0;
+    int i,t,index = 0;
     scanf("%d",&t);
 
     if (arr[i] == index){
