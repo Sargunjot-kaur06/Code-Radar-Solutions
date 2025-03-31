@@ -25,7 +25,7 @@ int main() {
             second = arr[i];
         }
     }
-    if (second == arr[1]) {
+    if (second == arr[n]) {
         printf("-1\n"); // All elements are equal
     } else {
         printf("%d\n", second);
