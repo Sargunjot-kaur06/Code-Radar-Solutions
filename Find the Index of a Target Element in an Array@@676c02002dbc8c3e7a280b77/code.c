@@ -8,10 +8,10 @@ int main() {
         scanf("%d",&arr[i]);
     }
 
-    int t,index;
+    int t,index = 0;
     scanf("%d",&t);
 
-    if (index == t){
+    if (arr[i] == index){
         printf("%d",t);
     }
     else{
