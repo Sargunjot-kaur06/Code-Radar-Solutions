@@ -1,11 +1,10 @@
 #include<stdio.h>
 int main() {
     int n;
-    int a[n];
-    int arr[n];
     scanf("%d",&n);
 
     int arr[n];
+    int a[n];
     for(int i = 0; i < n; i++){
         scanf("%d",&arr[i]);
     }
