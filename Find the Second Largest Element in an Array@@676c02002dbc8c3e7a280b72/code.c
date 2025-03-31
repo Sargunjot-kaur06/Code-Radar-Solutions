@@ -11,7 +11,8 @@ int main() {
     if(n < 2)
     printf("-1\n");
     return 0;
-
+    
+    int min;
     int first = min, second = min;
     for(int i = 0; i < n; i++){
         if (int arr[i] > first){
