@@ -12,7 +12,7 @@ int main() {
     return 0;
 
     int first = int_min, second = int_min;
-    for(i = 0; i < n; i++){
+    for(int i = 0; i < n; i++){
         if (arr[i] > first){
             second = first;
             first = arr[i];
