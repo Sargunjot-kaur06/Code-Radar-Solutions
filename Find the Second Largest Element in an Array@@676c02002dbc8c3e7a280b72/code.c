@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main() {
     int n;
+    int a[n];
     scanf("%d",&n);
 
     int arr[n];
@@ -11,7 +12,7 @@ int main() {
     printf("-1\n");
     return 0;
 
-    int first = int_min, second = int_min;
+    int first = a, second = int_min;
     for(int i = 0; i < n; i++){
         if (int arr[i] > first){
             second = first;
